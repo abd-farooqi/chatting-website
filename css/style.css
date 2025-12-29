@@ -6,11 +6,11 @@
   text-wrap: wrap;
 }
 
-*,
+/* *,
 ::before,
 ::after {
-  /* outline: 2px solid red; */
-}
+  outline: 2px solid red;
+} */
 
 html {
   scroll-behavior: smooth;
@@ -29,6 +29,14 @@ html {
   margin-block: 20px;
 }
 
+.scale {
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
 /* navbar */
 
 .header {
@@ -42,13 +50,18 @@ html {
   gap: 20px;
 }
 
-.navigation a {
-  color: #1b1c20;
-  text-decoration: none;
-}
-
 .navigation li {
   list-style: none;
+}
+
+.navigation li a {
+  color: #1b1c20;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navigation li a:hover {
+  color: #fb8e0b;
 }
 
 .header-btns {
