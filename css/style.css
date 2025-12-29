@@ -590,7 +590,17 @@ html {
 }
 
 .footer-links li {
-  cursor: pointer;
+  list-style: none;
+}
+
+.footer-links li a {
+  color: #1b1c20;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #fb8e0b;
 }
 
 .footer-socials img {
@@ -622,6 +632,12 @@ footer hr {
 
 .footer-copyright p {
   color: grey;
+}
+
+.footer-copyright p a {
+  color: #fb8e0b;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .footer-privacy a {
@@ -798,7 +814,6 @@ footer hr {
   .hamburger {
     margin-right: 30px;
   }
-
   .main-section-text h1 {
     font-size: 30px;
     text-align: center;
