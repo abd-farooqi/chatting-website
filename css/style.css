@@ -62,6 +62,7 @@ html {
 }
 
 .primary-btn {
+  border: 1px solid #fb8e0b;
   color: #1b1c20;
   text-decoration: none;
   padding: 15px 30px;
@@ -85,9 +86,8 @@ html {
 }
 
 .secondary-btn:hover {
-  background-color: white;
-  border: 1px solid #fb8e0b;
-  color: #fb8e0b;
+  background-color: #fb8e0b90;
+  border: 1px solid #fb8e0b90;
   transition: all 0.3s;
 }
 
