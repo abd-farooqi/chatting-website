@@ -801,9 +801,11 @@ footer hr {
 
   .main-section-text h1 {
     font-size: 30px;
+    text-align: center;
   }
   .main-section-text p {
     font-size: 14px;
+    text-align: center;
   }
 
   .features h2 {
