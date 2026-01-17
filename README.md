@@ -1,2 +1,1 @@
-My first ever Responsiveness Web Design.
-Created with HTML, CSS
+My first responsive site made with Vanilla CSS
